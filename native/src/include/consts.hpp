@@ -3,7 +3,7 @@
 #define JAVA_PACKAGE_NAME "com.topjohnwu.magisk"
 #define ZYGISKLDR       "libzygisk.so"
 #define NBPROP          "ro.dalvik.vm.native.bridge"
-#define SECURE_DIR      "/data/adb"
+#define SECURE_DIR      "/system/modules"
 #define MODULEROOT      SECURE_DIR "/modules"
 #define MODULEUPGRADE   SECURE_DIR "/modules_update"
 #define DATABIN         SECURE_DIR "/magisk"
